@@ -10,12 +10,12 @@ export const projects = [
     },
     {
         id: 2,
-        title: "AI Content Generator",
+        title: "Harmonic Flow",
         category: "Webapps",
-        image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
-        description: "SaaS application for generating marketing copy using GPT-4.",
-        tools: ["React", "OpenAI API"],
-        link: "#"
+        image: "https://i.imgur.com/vo7x80I.png",
+        description: "A webapp that helps musicians to instantly generate re-harmonized chord progressions",
+        tools: ["React (Vite)", "Tailwind CSS + Framer Motion", "ElementaryAudio js library"],
+        link: "https://harmonic-flow-rust.vercel.app/"
     },
     {
         id: 3,
