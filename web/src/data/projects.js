@@ -12,7 +12,7 @@ export const projects = [
         id: 2,
         title: "Harmonic Flow",
         category: "Webapps",
-        image: "https://i.imgur.com/vo7x80I.png",
+        image: "https://i.imgur.com/5Pad5gv.png",
         description: "A webapp that helps musicians to instantly generate re-harmonized chord progressions",
         tools: ["React (Vite)", "Tailwind CSS + Framer Motion", "ElementaryAudio js library"],
         link: "https://harmonic-flow-three.vercel.app/"
