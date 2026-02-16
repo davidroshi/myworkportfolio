@@ -15,7 +15,7 @@ export const projects = [
         image: "https://i.imgur.com/vo7x80I.png",
         description: "A webapp that helps musicians to instantly generate re-harmonized chord progressions",
         tools: ["React (Vite)", "Tailwind CSS + Framer Motion", "ElementaryAudio js library"],
-        link: "https://harmonic-flow-rust.vercel.app/"
+        link: "https://harmonic-flow-three.vercel.app/"
     },
     {
         id: 3,
