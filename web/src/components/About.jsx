@@ -12,13 +12,13 @@ const About = () => {
                     Bridging the gap between code and creativity.
                 </h2>
                 <p className="text-gray-600 text-lg leading-relaxed">
-                    I'm David Roshi, a passionate developer based in [Location]. With a background in both
+                    I'm David Roshi, a passionate developer based in Pardes Hanna. With a background in both
                     Web Development and AI Automation, I help businesses build robust digital products
                     and streamline their operations.
                 </p>
                 <p className="text-gray-600 text-lg leading-relaxed">
                     My approach is simple: clean code, user-centric design, and efficient automation.
-                    Whether it's a custom WordPress site or a complex React application, I bring
+                    Whether it's a custom website or a complex React application, I bring
                     technical expertise and a creative eye to every project.
                 </p>
             </div>
