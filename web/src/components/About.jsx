@@ -28,7 +28,7 @@ const About = () => {
                     className="aspect-square bg-gray-200 rounded-2xl overflow-hidden relative z-10"
                 >
                     <img
-                        src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=800"
+                        src="https://i.ibb.co/qYmXp40M/Gemini-Generated-Image-cmyutecmyutecmyu.png"
                         alt="David Roshi"
                         className="w-full h-full object-cover"
                     />

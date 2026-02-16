@@ -5,7 +5,8 @@ export const projects = [
         category: "Websites",
         image: "https://images.unsplash.com/photo-1523474253062-5c2cbc297711?auto=format&fit=crop&q=80&w=800",
         description: "A modern e-commerce solution built with Webflow.",
-        tools: ["Webflow", "JS"]
+        tools: ["Webflow", "JS"],
+        link: "#"
     },
     {
         id: 2,
@@ -13,7 +14,8 @@ export const projects = [
         category: "Webapps",
         image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
         description: "SaaS application for generating marketing copy using GPT-4.",
-        tools: ["React", "OpenAI API"]
+        tools: ["React", "OpenAI API"],
+        link: "#"
     },
     {
         id: 3,
@@ -21,7 +23,8 @@ export const projects = [
         category: "Automations",
         image: "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?auto=format&fit=crop&q=80&w=800",
         description: "Automated support ticketing system connected to Slack.",
-        tools: ["Zapier", "Python"]
+        tools: ["Zapier", "Python"],
+        link: "#"
     },
     {
         id: 4,
@@ -29,6 +32,7 @@ export const projects = [
         category: "Websites",
         image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&q=80&w=800",
         description: "Minimalist portfolio for a creative agency.",
-        tools: ["Wordpress", "Elementor"]
+        tools: ["Wordpress", "Elementor"],
+        link: "#"
     }
 ];

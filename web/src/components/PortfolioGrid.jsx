@@ -13,7 +13,7 @@ const PortfolioGrid = () => {
     );
 
     return (
-        <section className="py-20 px-6 md:px-20 bg-gray-50 max-w-7xl mx-auto">
+        <section id="projects" className="py-20 px-6 md:px-20 bg-gray-50 max-w-7xl mx-auto">
             <div className="flex flex-col md:flex-row justify-between items-end mb-12">
                 <div>
                     <span className="text-primary font-medium tracking-wider uppercase text-sm">
@@ -44,14 +44,17 @@ const PortfolioGrid = () => {
             >
                 <AnimatePresence>
                     {filteredProjects.map((project) => (
-                        <motion.div
+                        <motion.a
+                            href={project.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
                             layout
                             initial={{ opacity: 0, scale: 0.9 }}
                             animate={{ opacity: 1, scale: 1 }}
                             exit={{ opacity: 0, scale: 0.9 }}
                             transition={{ duration: 0.3 }}
                             key={project.id}
-                            className="group relative bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow cursor-pointer"
+                            className="group relative bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow cursor-pointer block"
                         >
                             <div className="aspect-video overflow-hidden">
                                 <img
@@ -83,7 +86,7 @@ const PortfolioGrid = () => {
                                     ))}
                                 </div>
                             </div>
-                        </motion.div>
+                        </motion.a>
                     ))}
                 </AnimatePresence>
             </motion.div>
